@@ -1,0 +1,28 @@
+.mainWrap {
+  height: 100vh;
+  display: flex;
+}
+
+.editorWrap {
+  height: 80vh;
+  width: 100%;
+}
+
+.CodeMirror {
+  min-height: calc(100vh - 60px);
+  font-size: 18px;
+  line-height: 1.6;
+  padding-top: 10px;
+}
+
+/* Modifications */
+
+.CodeMirror pre.CodeMirror-line,
+.CodeMirror pre.CodeMirror-line-like {
+  padding: 0 10px;
+}
+
+.CodeMirror-linenumber {
+  display: flex;
+  justify-content: space-around;
+}

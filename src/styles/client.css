@@ -1,0 +1,11 @@
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.clientUserName {
+  margin-top: 10px;
+}

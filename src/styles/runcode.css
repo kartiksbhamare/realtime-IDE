@@ -1,0 +1,32 @@
+.inputbox{
+  width:auto;
+  display: flex;
+  justify-content:space-around;
+  z-Index:10;
+  color:black;
+  position:relative;
+  padding-left:50px;
+  margin-top:-390px;
+}
+.inner-inputbox{
+  width:auto;
+  height:auto;
+  background:white;
+  padding:10px 20px 10px 20px;
+  border-radius:10px;
+}
+.close-button{
+  display:flex;
+  justify-content:space-between;
+}
+.input-text{
+  width:700px;
+  background-color:white;
+}
+.runbox{
+  display:flex;
+  justify-content:center;
+  padding:10px 0px 0px 0px;
+}
+
+

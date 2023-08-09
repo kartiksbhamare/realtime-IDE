@@ -1,0 +1,45 @@
+
+.editorNavWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 4px 20px;
+  height: 45px;
+  font-size: 13px;
+  text-align: center;
+  color: #0a0a0a;
+  background-color: white;
+  /* background-color: #1C1E29; */
+  /* gap: 20px; */
+}
+
+.editorNavSelect {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.editorNavChangeBtn {
+  align-items: center;
+  display: flex;
+  margin-right: 10px;
+}
+
+.titleText{
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0px 15px 0px 15px;
+}
+
+.liveBox {
+  display: flex;
+  align-items: center;
+  
+}
+
+.liveText {
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0px 15px 0px 15px;
+}

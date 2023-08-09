@@ -1,0 +1,57 @@
+.sidebar {
+  background: #1c1e29;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* height: 100%; */
+  width: 20rem;
+}
+.sidebarInner {
+  flex: 1;
+}
+
+.clientsList {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.logoBox {
+  border-bottom: 1px solid #424242;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebarLogo {
+  height: 50px;
+}
+
+.logoImage {
+  height: 60px;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.leaveBtn {
+  width: 100%;
+  margin-top: 20px;
+  background: #4aed88;
+  margin-left: auto;
+}
+
+.leaveBtn:hover {
+  background: #2b824c;
+}
